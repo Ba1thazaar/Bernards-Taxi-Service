@@ -38,9 +38,8 @@ function Desktop () {
           <a><b>Bernard:</b> 505-550-9901</a>
           <a><b>Preety:</b> 505-310-5344</a>
           <h2>Availability</h2>
-          <a><b>Monday through Friday:</b> 6am - 11pm</a>
-          <a><b>Saturday:</b>8am - 1am</a>
-          <a><b>Sunday:</b>8am - 10pm</a>
+          <a><b>On Call Hours:</b>  5 am to 11pm</a>
+          <a>Reservations available 24/7</a>
         </div>
        </div>
        <div className = "footer">
