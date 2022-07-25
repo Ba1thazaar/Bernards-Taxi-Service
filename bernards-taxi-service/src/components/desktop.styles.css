@@ -1,4 +1,8 @@
-h1 {
+.desktop {
+
+}
+
+.desktop h1 {
   display: block;
   width: 50%;
   margin: auto;
@@ -8,9 +12,60 @@ h1 {
   padding-top: 15px;
 }
 
-.logo {
+.desktop a {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.desktop b {
+  padding-right: 20px;
+}
+
+.desktop h2 {
+  text-align: center;
+  font-size: 47px;
+}
+.desktop .logo{
   display: block;
   margin: auto;
-  width: 500px;
-  height: 500px;
+  width: 1536px;
+  height: 333px;
+}
+
+.desktop li {
+  font-size: 25px;
+}
+
+.desktop #menuHeader{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+#menuHeader h3{
+  padding-left: 200px;
+  padding-right:200px;
+  font-size: 30px;
+}
+
+#menuHeader h3:hover {
+  color: Grey;
+}
+
+.footer {
+  background-color: LightBlue;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }

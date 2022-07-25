@@ -1,25 +1,61 @@
-h1 {
-  display: block;
-  width: 50%;
+
+
+
+.mobile h1 {
+  display: flex;
+  width: 80%;
   margin: auto;
   font-size: 30px;
   color: FireBrick;
   text-align: center;
-  padding-top: 15px;
 }
 
-h2 {
+.mobile h2 {
   display: block;
   text-align: center;
-  padding-top: 10px;
   padding-left: 15px;
   padding-right: 15px;
+  font-size: 25px;
+  padding: 0;
+  margin:0;
+  padding-bottom: 5px;
+}
+
+.mobile h3 {
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  font-size: 13px;
+  width: 80%;
+}
+
+.mobile a {
+  display: flex;
+  justify-content: center;
   font-size: 15px;
 }
 
-.logo {
+.mobile ul {
+  padding: 0;
+  margin: 0;
+}
+.mobile .banner {
   display: block;
   margin: auto;
-  width: 200px;
-  height: 200px;
+  width: 95%;
+  height: auto;
+}
+
+.mobile .logo {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+.mobile .Section {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 15px;
 }
